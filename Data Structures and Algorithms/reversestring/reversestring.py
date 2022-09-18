@@ -1,4 +1,4 @@
-class Solution:
+class Mutations:
     def reverseString(self, s):
         left, right = 0, len(s) - 1
         while left < right:
@@ -7,6 +7,13 @@ class Solution:
         return s
 
 arr = ["h","e","l","l","o"]
-arr2 = Solution()
-arr2 = arr2.reverseString(arr)
-print(arr2)
+print(arr)
+
+mutations = Mutations()
+mutations.reverseString(arr)
+print(arr)
+
+# arr2 = arr2.reverseString(arr)
+# print(arr)
+# print(arr2)
+# arr.reverse()
