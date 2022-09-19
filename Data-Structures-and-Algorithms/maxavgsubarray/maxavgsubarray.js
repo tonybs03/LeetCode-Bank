@@ -1,4 +1,4 @@
-var findMaxAverage = function(nums, k) {
+const findMaxAverage = function(nums, k) {
     let cursum = 0;
     let maxsum = 0;
     for (var i = 0; i < k; i++) {
@@ -19,5 +19,5 @@ var k  = 1
 console.log(findMaxAverage(arr, k));
 console.log(arr);
 
-// O(N) for time (N/2 swaps)
-// O(1) for space (no recursion)
+// O(N) for time (N iterations that grows on input size)
+// O(1) for space (single output)
