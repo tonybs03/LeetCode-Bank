@@ -15,5 +15,5 @@ k = 13
 console.log(twoSum(arr,k))
 
 // O(N) for time (N steps to iterate through)
-// O(1) for space (constant extra space)
+// O(N) for space (constant extra space)
 
