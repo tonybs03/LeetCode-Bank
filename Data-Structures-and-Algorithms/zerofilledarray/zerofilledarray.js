@@ -20,4 +20,4 @@ arr = [0,0,0,2,0,0,2,0,0,0]
 console.log(zeroFilledSubarray(arr))
 
 // O(N) for time (N steps to iterate through)
-// O(N) for space (constant extra space)
+// O(1) for space (constant extra space, doesn't change upon the changes in input arrays)
