@@ -18,6 +18,5 @@ nums = [3, 7, 11, 15, 21, 91, 125, 786, 1230]
 target = 125
 print(Solution().search(nums, target))
 
-
 # O(logN) with log base 2
 # O(1) for space (constant extra space)
