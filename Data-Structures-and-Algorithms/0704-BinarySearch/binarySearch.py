@@ -1,5 +1,5 @@
 class Solution(object):
-    def search(self, nums, target):
+    def binarySearch(self, nums, target):
         left = 0
         right = len(nums) - 1
 
@@ -16,7 +16,8 @@ class Solution(object):
 
 nums = [3, 7, 11, 15, 21, 91, 125, 786, 1230]
 target = 125
-print(Solution().search(nums, target))
+print(Solution().binarySearch(nums, target))
 
 # O(logN) with log base 2
 # O(1) for space (constant extra space)
+# Search from left and right, discard half based on sorted array

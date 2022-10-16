@@ -1,4 +1,4 @@
-const binarysearch = function(nums, target) {
+const binarySearch = function(nums, target) {
     let l = 0;
     let r = nums.length - 1;
 
@@ -18,7 +18,8 @@ const binarysearch = function(nums, target) {
 
 nums = [3, 7, 11, 15, 21, 91, 125, 786, 1230]
 target = 125
-console.log(binarysearch(nums, target))
+console.log(binarySearch(nums, target))
 
 // O(logN) with log base 2
 // O(1) for space (constant extra space)
+// Search from left and right, discard half based on sorted array
