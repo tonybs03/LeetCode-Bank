@@ -33,6 +33,6 @@ nums1 = [3, 7, 11, 15, 21, 91, 125, 786, 1230]
 nums2 = [5, 7, 0, 8, 12, 156, 78, 11, 3] 
 console.log(intersection(nums1, nums2))
 
-// O(mlogm + nlogn)
+// O(mlogm + nlogn) (or O(n)???)
 // O(1) for space (constant extra space for ans doesn't count)
 // Search the same values from two arrays and return them
