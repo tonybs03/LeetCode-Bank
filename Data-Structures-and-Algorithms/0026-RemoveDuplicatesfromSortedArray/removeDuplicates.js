@@ -12,6 +12,6 @@ const removeDuplicates = function(nums) {
 nums = [0,0,1,1,1,2,2,3,3,4]
 console.log(removeDuplicates(nums))
 
-// # O(n)
+// O(n)
 // O(1)
 // Remove repeated elements

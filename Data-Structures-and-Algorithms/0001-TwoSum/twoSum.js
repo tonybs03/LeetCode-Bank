@@ -10,7 +10,7 @@ const twoSum = function(nums, target) {
     }
 };
 
-arr = [1, 3, 5, 9, 3, 12, -5, 6, 12]
+arr = [1, 3, 5, 9, 3, 4]
 k = 13
 console.log(twoSum(arr,k))
 

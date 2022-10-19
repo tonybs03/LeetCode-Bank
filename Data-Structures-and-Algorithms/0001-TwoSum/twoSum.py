@@ -9,9 +9,8 @@ class Functions(object):
             
                 
 
-arr = [1, 3, 5, 9, 3, 12, -5, 6, 12]
+arr = [1, 3, 5, 9, 3, 12]
 k = 13
-print(arr)
 print(Functions().twoSum(arr,k))
 
 
