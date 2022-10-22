@@ -16,4 +16,4 @@ print(Solution().sortedSquares(nums))
 
 # O(n) as it iterates through the whole array (n/2 -> n)
 # O(1) for space (constant extra space), if result array is not counted (which it shouldn't)
-# Sort the squares of a sorted array 
+# Sort the squares of a sorted array. Utilize the fact that it is already sorted, where end points are the largest values in absolute.

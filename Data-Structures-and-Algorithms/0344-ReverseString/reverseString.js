@@ -18,3 +18,4 @@ console.log(arr);
 
 // O(N) for time (N/2 swaps)
 // O(1) for space (no recursion)
+// Two pointer, left end and right end, move inwards.
