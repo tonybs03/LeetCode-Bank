@@ -36,3 +36,7 @@ const threeSum = function(nums) {
 
 nums = [-1,0,1,2,-1,-4]
 console.log(threeSum(nums))
+
+// # O(N^2 + NlogN) ~ O(N^2) since it has two loops (almost) within one another
+// O(N) for the sorting function
+// Array of numbers with negative and positive values, find the threeSum that is zero
