@@ -12,9 +12,14 @@ const threeSum = function(nums) {
         if (i > 0 && nums[i] == nums[i-1]) {
             continue
         }
+        // break the loop is the number is greater or equal to zero because you cant make zero out of them
+        if (nums[i] >= 0) {
+            break
+        }
         // With nums[i] in hand, find a twoSum using two pointers approach from two sides of the rest of the array
         let left = i+1;
         let right = nums.length-1;
+
         while (left < right) {
             let cursum = nums[i] + nums[left] + nums[right]
             if (cursum < 0) {
