@@ -9,4 +9,4 @@ print(Solution().reverseWords(s))
 
 # O(N)
 # O(N) for space storing the array of s.split()
-# Sum of each digit squared of a number, recursive, until number is 1 
+# Reverse words

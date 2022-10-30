@@ -18,3 +18,7 @@ const reverseWords = function(s) {
 
 s = " the sky is blue "
 console.log(reverseWords(s))
+
+// O(N)
+// O(N) for space storing the array of s.split()
+// Reverse words
