@@ -27,8 +27,7 @@ while (node) {
     console.log(node.val)
     node = node.next
 }
-    
 
 // # O(N) one pass traverse
 // O(N) for recursion
-// Remove node from a linked list
+// Reverse the linked list

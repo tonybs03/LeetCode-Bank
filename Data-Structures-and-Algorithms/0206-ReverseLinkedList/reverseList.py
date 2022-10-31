@@ -31,4 +31,4 @@ while node:
     
 # O(N) one pass traverse
 # O(1) constant extra space required
-# Remove node from a linked list
+# Reverse the linked list
