@@ -39,6 +39,6 @@ while (node) {
     node = node.next
 }
 
-// # O(N) one pass traverse
+// O(N) one pass traverse
 // O(1) constant extra space required
 // Remove node from a linked list
