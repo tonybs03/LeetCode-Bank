@@ -4,7 +4,7 @@ function ListNode(val, next) {
     this.next = (next === undefined ? null : next)
 }
 
-// initializing the stacks
+// initializing the queue
 const MyQueue = function() {
     this.queue = new ListNode(0)
     this.cur = this.queue
