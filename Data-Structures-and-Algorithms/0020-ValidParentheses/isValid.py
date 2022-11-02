@@ -32,5 +32,5 @@ print(Solution().isValid(gs))
 print(Solution().isValid(bs))
 
 # O(N) one pass traverse
-# O(N) storing stack
+# O(N) storing stack for the res is just a boolean
 # Are the brackets closed properly?
