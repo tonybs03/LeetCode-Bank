@@ -23,7 +23,7 @@ MyQueue.prototype.pop = function() {
     if(this.queue && this.queue.next) {
         // return this res as the front of the queue
         const res = this.queue.next.val
-        // remove the "first node", this.queue.next is always the front even though we have the 0 node as a leading reference node
+        // remove the "first node", this.queue.next is always the front because we have the 0 node as a leading reference node at the begining
         this.queue = this.queue.next
         this.length--
         return res

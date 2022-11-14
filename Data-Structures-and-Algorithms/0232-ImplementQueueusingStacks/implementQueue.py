@@ -34,19 +34,3 @@ class MyQueue(object):
     def empty(self):
         return len(self.main) == 0
         
-obj = MyQueue()
-obj.push(3)
-obj.push(6)
-obj.push(9)
-param_1 = obj.pop()
-param_2 = obj.peek()
-param_3 = obj.pop()
-param_4 = obj.empty()
-param_5 = obj.pop()
-param_6 = obj.empty()
-print(param_1)
-print(param_2)
-print(param_3)
-print(param_4)
-print(param_5)
-print(param_6)
