@@ -8,7 +8,6 @@ const preorderTraversal = function(root) {
     if (!root) { 
         return [] 
     };
-
     let stack = [(root)];
     let ans = [];
     while (stack.length) {
@@ -22,7 +21,6 @@ const preorderTraversal = function(root) {
         }
     }
     return ans
-
 };
 
 let root = new TreeNode(0);
